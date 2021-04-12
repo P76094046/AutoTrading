@@ -1,6 +1,6 @@
 # DSAI HW2
 
----
+
 ## Data preprocessing
 
 - 將數據歸一化至 (-1, 1) 區間
@@ -8,7 +8,7 @@
     - 不是使用整個連接後的資料做預測，而是指"用 training data 的最後 14 筆，預測 testing data 的第 1 筆"
     - 下一次則是 "使用 training data 的最後 13 筆 和 第 1 筆 testing data 預測 testing data 的第 2 筆"
 
----
+
 ## Model : LSTM
 
 - 使用基礎的LSTM模型預測股價後再利用預測的股價做決策
@@ -20,7 +20,7 @@
     - Learning rate = 0.01, 
     - Optimizer = Adam
 
----
+
 ## Decision
 
 - 第一天都先買股票(Buy)，並記錄買價。
