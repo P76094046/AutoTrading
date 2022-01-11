@@ -1,5 +1,5 @@
-# DSAI HW2
-
+# AutoTrading
+Given a series of stock prices, including daily open, high, low, and close prices, decide mine daily action and make best profit for the future trading.
 
 ## Data preprocessing
 
